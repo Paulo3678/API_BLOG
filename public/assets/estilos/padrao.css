@@ -1,0 +1,14 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+#login{
+    border-radius: 5px; 
+    background-color: #fff; 	
+    box-shadow: 
+	    0 3.4px 4.6px rgba(0, 0, 0, 0.082),
+	    0 9.5px 12.8px rgba(0, 0, 0, 0.121),
+	    0 22.9px 30.8px rgba(0, 0, 0, 0.156),
+	    0 76px 102px rgba(0, 0, 0, 0.21);
+    padding: 5%;
+}

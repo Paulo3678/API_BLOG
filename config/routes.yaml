@@ -1,0 +1,39 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+publicacoes:
+  path: /getPublicacoes
+  controller: App\Controller\PublicacoesController::getPublicacoes
+  methods:
+    - GET
+
+busca_uma_publicacao:
+  path: /getPublicacao/{id}
+  controller: App\Controller\PublicacoesController::getPublicacao
+  methods:
+    - GET
+
+buscar_mais:
+  path: /getPublicacoes/search-more
+  controller: App\Controller\PublicacoesController::searchMore
+  methods:
+    - GET
+
+buscar_imagem:
+  path: /getImage
+  controller: App\Controller\PublicacoesController::getImage
+  methods:
+    - GET
+
+nova_publicacao:
+  path: /setPublicacao
+  controller: App\Controller\PublicacoesController::setPublicacao
+  methods:
+    - POST
+
+imagem:
+  path: /setPublicacaoImage
+  controller: App\Controller\PublicacoesController::image
+  methods:
+    - POST
